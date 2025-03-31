@@ -32,8 +32,11 @@ The following environment variables are required and must be stored in an `.env`
 ```env
 AUTH_SECRET= # Added by `npx auth`. Read more: https://cli.authjs.dev
 AUTH_URL="http://localhost:3000"
-NEXT_PUBLIC_MONGODB_URI="" # retrieved through MongoDB
+
 NEXT_PUBLIC_NODE_ENV="development"
+
+# retrieved via MongoDB
+NEXT_PUBLIC_MONGODB_URI="" 
 
 # retrieved via Google Cloud Portal
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=
