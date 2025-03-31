@@ -40,3 +40,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: acm-ucr/build@v2
+
+    env:
+      NEXT_PUBLIC_MONGODB_URI: ${{ secrets.NEXT_PUBLIC_MONGODB_URI }}
+      NEXT_PUBLIC_GOOGLE_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_CLIENT_ID }}
+      NEXT_PUBLIC_GOOGLE_CLIENT_SECRET: ${{ secrets.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET }}
+      AUTH_URL: ${{ secrets.AUTH_URL }}
+      AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
