@@ -36,7 +36,7 @@ AUTH_URL="http://localhost:3000"
 NEXT_PUBLIC_NODE_ENV="development"
 
 # retrieved via MongoDB
-NEXT_PUBLIC_MONGODB_URI="" 
+NEXT_PUBLIC_MONGODB_URI=""
 
 # retrieved via Google Cloud Portal
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=
