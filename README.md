@@ -1,4 +1,4 @@
-# ACM UCR Website Template
+# Next.js with Auth.js Hackpack
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23407ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -11,22 +11,36 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[<Add Figma Link Here>](https://www.figma.com/)
 
 ## Node.js
 
-ACM UCR Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+Next.js with Auth.js Hackpack runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
 This project is built using [Next.js](https://nextjs.org), a React framework. Next.js is automatically installed when you install all dependencies for this project.
+
+## Auth.js
+
+This project is built using [Auth.js](https://authjs.dev/), a library for handling authentication. This project is setup with skeleton code for use with Google Login and [MongoDB](https://www.mongodb.com/).
 
 ## Environment Variables
 
 The following environment variables are required and must be stored in an `.env` file:
 
 ```env
-N/A
+AUTH_SECRET= # Added by `npx auth`. Read more: https://cli.authjs.dev
+AUTH_URL="http://localhost:3000"
+
+NEXT_PUBLIC_NODE_ENV="development"
+
+# retrieved via MongoDB
+NEXT_PUBLIC_MONGODB_URI=""
+
+# retrieved via Google Cloud Portal
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=
 ```
 
 ## Commands

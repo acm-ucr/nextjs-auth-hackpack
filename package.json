@@ -12,9 +12,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.8.0",
     "@tanstack/react-query": "~5.53.3",
     "lucide-react": "~0.417.0",
+    "mongodb": "^6.14.2",
     "next": "^15.1.6",
+    "next-auth": "^5.0.0-beta.25",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
